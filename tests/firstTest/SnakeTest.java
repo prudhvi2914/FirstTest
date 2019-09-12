@@ -26,13 +26,20 @@ public class SnakeTest {
 	}
 
 	@Test
-	public boolean isHealthy() throws InterruptedException  {
+	public void isHealthy() throws InterruptedException  {
 		 
 	Boolean healthyFood = takis.isHealthy();
 
 	
 
 		assertEquals(true, healthyFood);	
+	
+	}
+
+
+	
+
+			
 	
 	}
 //		
